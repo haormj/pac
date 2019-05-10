@@ -1,10 +1,15 @@
 * PAC
+** 使用
+可直接使用 =https://raw.githubusercontent.com/haormj/pac/master/my.pac= 
 ** 生成 pac 文件
 通过[[https://github.com/JinnLynn/genpac][genpac]]工具
-#+begin_src shell
+#+begin_src shell :results output silent  
 genpac --format "pac" \
   --pac-proxy "SOCKS5 127.0.0.1:1080" \
   --gfwlist-proxy "SOCKS5 127.0.0.1:1080" \
   --user-rule-from "./user-rules.txt" \
   --output "my.pac"
 #+end_src
+
+#+RESULTS:
+

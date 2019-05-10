@@ -19,3 +19,11 @@
 !
 !   但其它格式如wingy, dnsmasq则无此必要, 例外规则将被忽略, 所有规则将被排序
 ! 
+
+@@sina.com
+@@163.com
+
+twitter.com
+youtube.com
+||google.com
+||wikipedia.org

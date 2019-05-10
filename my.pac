@@ -1,6 +1,6 @@
 /**
  * genpac 2.1.0 https://github.com/JinnLynn/genpac
- * Generated: 2019-05-10 16:13:28
+ * Generated: 2019-05-10 16:29:46
  * GFWList Last-Modified: 2019-04-29 10:36:52
  * GFWList From: online[https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt]
  */
@@ -8,8 +8,16 @@
 var proxy = 'SOCKS5 127.0.0.1:1080';
 var rules = [
     [
-        [],
-        []
+        [
+            "163.com",
+            "sina.com"
+        ],
+        [
+            "google.com",
+            "twitter.com",
+            "wikipedia.org",
+            "youtube.com"
+        ]
     ],
     [
         [
