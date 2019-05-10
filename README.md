@@ -1,2 +1,0 @@
-# pac
-Proxy auto-config
